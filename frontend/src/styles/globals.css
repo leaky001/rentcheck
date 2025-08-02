@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#FBF0FF] text-[#1F1F1F] font-sans;
+}
+
+input, select, textarea {
+  @apply px-3 py-2 border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-[#B093EF];
+}
+
+button {
+  @apply transition-all duration-200;
+}
