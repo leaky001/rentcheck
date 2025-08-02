@@ -29,7 +29,7 @@ app.use(errorHandler)
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to RentCheck');
+    res.json('Welcome to RentCheck');
 });
 
 const PORT = process.env.PORT || 5000
